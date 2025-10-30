@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="basketball.css">
+        <title>Basketball Scorecard</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card-1">
+                <h3>HOME</h3>
+                <h2 id="count-el-home">0</h2>
+                   <div class="card-btn">
+                       <button onclick="add1home()">+ 1</button>
+                       <button onclick="add2home()">+2</button>
+                       <button onclick="add3home()">+3</button>
+                 </div>
+            </div>
+            <div class="card-2">
+                <h3>GUEST</h3>
+                <h2 id="count-el-guest">0</h2>
+                    <div class="card-btn">
+                       <button onclick="add1guest()">+ 1</button>
+                       <button onclick="add2guest()">+2</button>
+                       <button onclick="add3guest()">+3</button>
+                 </div>
+            </div>
+        </div>
+        <button id="reset-el" onclick="reset()">Reset</button>
+        <script src="basketball.js"></script>
+    </body>
+</html>

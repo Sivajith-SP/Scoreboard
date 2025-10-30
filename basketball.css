@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background: #25183F;
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: Calculator;
+    src: url("digital-7.ttf");
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-1 {
+
+     text-align: center;
+
+}
+
+.card-2 {
+
+     text-align: center;
+
+}
+
+
+h3 {
+       
+       color: white;
+       font-size: 60px;
+       margin-bottom: 0px;
+       font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+
+    height: 150px;
+    width: 220px;
+    color: red;
+    margin-top: 20px;
+    padding: 10px 20px 30px;
+    background: black;
+    font-family: Calculator;
+    font-weight: normal;
+    font-size: 150px;
+    margin-bottom: 0px;
+}
+
+button {
+
+    padding: 15px;
+    margin: 30px 3px;
+    font-size: 32px;
+    font-family: Calculator;
+    background: #25183F;
+    border: 1px solid #9E9E9E;
+    border-radius: 10px;
+    color: white;
+
+}
+
